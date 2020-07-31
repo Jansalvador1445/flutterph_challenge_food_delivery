@@ -33,11 +33,14 @@ class _DashboardPageState extends State<DashboardPage> {
                   child: Container(
                     width: 25,
                     height: 25,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage(AppStrings.imagePathLogo),
-                      ),
-                    ),
+                    child: Icon(Icons.contacts),
+
+                    // TODO: Change this to other Images.
+                    // decoration: BoxDecoration(
+                    //   image: DecorationImage(
+                    //     image: AssetImage(AppStrings.imagePathLogo),
+                    //   ),
+                    // ),
                   ),
                 ),
                 SizedBox(width: 10),

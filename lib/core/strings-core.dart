@@ -1,6 +1,6 @@
 class AppStrings {
   //Menu
-  static const menuFoodPanda = "Food Panda";
+  static const menuFoodPanda = "Lorem Ipsum";
   static const menuAll = "All";
   static const menuShawarma = "Shawarma";
   static const menuPizza = "Pizza";
