@@ -278,10 +278,6 @@ class _DashboardPageState extends State<DashboardPage> {
         padding: EdgeInsets.all(10),
         height: 80,
         width: 80,
-        decoration: BoxDecoration(
-          shape: BoxShape.circle,
-          color: AppColors.gdPrimaryColor.withOpacity(.26),
-        ),
         child: Container(
           padding: EdgeInsets.all(20),
           decoration: BoxDecoration(

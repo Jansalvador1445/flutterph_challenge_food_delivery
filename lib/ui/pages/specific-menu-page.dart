@@ -54,7 +54,7 @@ class SpecificMenu extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "\$20",
+                  "\₱110",
                   style: Theme.of(context)
                       .textTheme
                       .headline4
@@ -86,17 +86,16 @@ class SpecificMenu extends StatelessWidget {
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         SizedBox(width: 30),
-                        Icon(Icons.arrow_forward_ios)
+                        Icon(
+                          Icons.arrow_forward_ios,
+                          color: AppColors.gdTextColor,
+                        )
                       ],
                     ),
                   ),
                   Container(
                     height: 80,
                     width: 80,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: AppColors.gdPrimaryColor.withOpacity(.26),
-                    ),
                     child: Stack(
                       alignment: Alignment.center,
                       children: <Widget>[
@@ -108,7 +107,10 @@ class SpecificMenu extends StatelessWidget {
                             shape: BoxShape.circle,
                             color: AppColors.gdPrimaryColor,
                           ),
-                          child: Icon(Icons.restaurant_menu),
+                          child: Icon(
+                            Icons.restaurant_menu,
+                            color: Colors.white,
+                          ),
                           // SvgPicture.asset("assets/bag.svg"),
                         ),
                       ],
