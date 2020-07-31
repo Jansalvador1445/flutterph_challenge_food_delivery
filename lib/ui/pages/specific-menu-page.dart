@@ -20,12 +20,6 @@ class SpecificMenu extends StatelessWidget {
                     Icons.arrow_back_ios,
                   ),
                 ),
-                InkWell(
-                  onTap: () {},
-                  child: Icon(
-                    Icons.menu,
-                  ),
-                ),
               ],
             ),
             Container(
