@@ -6,8 +6,8 @@ class AppStrings {
   static const menuPizza = "Pizza";
   static const menuBurger = "Burger";
   static const menuPasta = "Pasta";
-  static const menuTitle = "Gao Dong Hai Siomai";
-  static const menuPlace = "     Gao Dong Hai";
+  static const menuTitle = "Lorem Ipsum Siomai";
+  static const menuPlace = "     Lorem Ipsum";
   static const menuPrice = 110;
   static const menuDescription_small = "Description here";
   static const menuDescription_big =
