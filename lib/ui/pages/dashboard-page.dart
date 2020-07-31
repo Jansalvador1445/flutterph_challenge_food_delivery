@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challenge_food_delivery/core/colors-core.dart';
+import 'package:flutter_challenge_food_delivery/core/strings-core.dart';
 import 'package:flutter_challenge_food_delivery/ui/pages/specific-menu-page.dart';
 import 'package:flutter_challenge_food_delivery/ui/widgets/menu-card-widget.dart';
 import 'package:flutter_challenge_food_delivery/ui/widgets/menu-title-widger.dart';
@@ -34,14 +35,14 @@ class _DashboardPageState extends State<DashboardPage> {
                     height: 25,
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/foodpanda-logo.png"),
+                        image: AssetImage(AppStrings.imagePathLogo),
                       ),
                     ),
                   ),
                 ),
                 SizedBox(width: 10),
                 Text(
-                  "Food Panda",
+                  AppStrings.menuFoodPanda,
                   style: Theme.of(context).textTheme.headline5,
                 ),
               ],
@@ -51,11 +52,11 @@ class _DashboardPageState extends State<DashboardPage> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: <Widget>[
-                MenuTitleWidget(title: "All", active: true),
-                MenuTitleWidget(title: "Shawarma"),
-                MenuTitleWidget(title: "Pizza"),
-                MenuTitleWidget(title: "Burger"),
-                MenuTitleWidget(title: "Pasta"),
+                MenuTitleWidget(title: AppStrings.menuAll, active: true),
+                MenuTitleWidget(title: AppStrings.menuShawarma),
+                MenuTitleWidget(title: AppStrings.menuPizza),
+                MenuTitleWidget(title: AppStrings.menuBurger),
+                MenuTitleWidget(title: AppStrings.menuPasta),
               ],
             ),
           ),
@@ -74,7 +75,7 @@ class _DashboardPageState extends State<DashboardPage> {
                 Icon(Icons.search),
                 Expanded(
                   child: Text(
-                    "     Gao dong hai",
+                    AppStrings.menuPlace,
                     textAlign: TextAlign.left,
                   ),
                 )
@@ -98,10 +99,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -112,10 +113,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -126,10 +127,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -140,10 +141,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -154,10 +155,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -168,10 +169,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       SizedBox(width: 20),
                     ],
@@ -190,10 +191,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -204,10 +205,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -218,10 +219,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -232,10 +233,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -246,10 +247,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       MenuCardWidget(
                         press: () {
@@ -260,10 +261,10 @@ class _DashboardPageState extends State<DashboardPage> {
                             }),
                           );
                         },
-                        title: "Gao Dong Hai Siomai",
-                        image: "assets/siomai.png",
-                        price: 110,
-                        description: "Description here",
+                        title: AppStrings.menuTitle,
+                        image: AppStrings.imagePathSiomai,
+                        price: AppStrings.menuPrice,
+                        description: AppStrings.menuDescription_small,
                       ),
                       SizedBox(width: 20),
                     ],

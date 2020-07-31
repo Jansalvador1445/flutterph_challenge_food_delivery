@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_challenge_food_delivery/core/colors-core.dart';
+import 'package:flutter_challenge_food_delivery/core/strings-core.dart';
 
 class SpecificMenu extends StatelessWidget {
   @override
@@ -34,7 +35,7 @@ class SpecificMenu extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("assets/siomai.png"),
+                    image: AssetImage(AppStrings.imagePathSiomai),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -47,14 +48,14 @@ class SpecificMenu extends StatelessWidget {
                   text: TextSpan(
                     children: [
                       TextSpan(
-                        text: "Gao Dong Hai Siomai",
+                        text: AppStrings.menuTitle,
                         style: Theme.of(context).textTheme.headline5,
                       ),
                     ],
                   ),
                 ),
                 Text(
-                  "\₱110",
+                  "\₱${AppStrings.menuPrice}",
                   style: Theme.of(context)
                       .textTheme
                       .headline4
@@ -64,7 +65,7 @@ class SpecificMenu extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              "Siomai is a popular dim sum dish which consists of ground pork or shrimp or both, carrots, dried mushrooms, green onions and flavored with soy sauce, Chinese wine, salt, pepper and sesame oil. Egg and cornstarch are used to bind the mixture together. It is then wrapped in wonton wrappers and steamed.",
+              AppStrings.menuDescription_big,
               textAlign: TextAlign.justify,
             ),
             Spacer(),
@@ -82,7 +83,7 @@ class SpecificMenu extends StatelessWidget {
                     child: Row(
                       children: <Widget>[
                         Text(
-                          "PLACE YOUR ORDER",
+                          AppStrings.placeOrder,
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         SizedBox(width: 30),
