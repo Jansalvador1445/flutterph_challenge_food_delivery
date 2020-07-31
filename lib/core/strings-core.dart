@@ -11,7 +11,7 @@ class AppStrings {
   static const menuPrice = 110;
   static const menuDescription_small = "Description here";
   static const menuDescription_big =
-      "Siomai is a popular dim sum dish which consists of ground pork or shrimp or both, carrots, dried mushrooms, green onions and flavored with soy sauce, Chinese wine, salt, pepper and sesame oil. Egg and cornstarch are used to bind the mixture together. It is then wrapped in wonton wrappers and steamed.";
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
   static const placeOrder = "PLACE YOUR ORDER";
 
   //Images
