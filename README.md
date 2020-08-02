@@ -1,5 +1,9 @@
 # Flutter Philippines : Flutter UI Challenge 2020
 
+| Attempt | #1  | #2  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
+
 
 
 <!-- ## Getting Started
