@@ -1,9 +1,8 @@
 # Flutter Philippines : Flutter UI Challenge 2020
 
-| Screenshot #1 | Screenshot #2  | 
-| ![](screenshots/sc-1.png) | ![](screenshots/sc-2.png) |
-
-
+| Screenshot #1 | Screenshot #2  |
+| ------- | --- | 
+| ![](screenshots/sc-1.png) | ![](screenshots/sc-2.png)  |
 
 
 <!-- ## Getting Started
