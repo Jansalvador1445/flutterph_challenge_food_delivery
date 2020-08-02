@@ -1,7 +1,7 @@
 # Flutter Philippines : Flutter UI Challenge 2020
 
 | Screenshot #1 | Screenshot #2  | 
-| ![Uploading Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-02 at 13.00.45.png…]() | ![Uploading Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-02 at 13.00.51.png…]() |
+| ![](screenshots/sc-1.png) | ![](screenshots/sc-2.png) |
 
 
 
